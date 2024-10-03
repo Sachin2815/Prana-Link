@@ -1,0 +1,359 @@
+.user-sidebar {
+  position: fixed;
+  top: 85px;
+  left: 27px;
+  width: 260px;
+  height: fit-content;
+  padding-bottom: 20px;
+  background-color: #e4f9fa;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-sidebar.toggle {
+  background-color: #39394b;
+}
+
+.user-sidebar-logo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.user-sidebar-logo p {
+  font-size: 22px;
+  font-weight: 600;
+  background: linear-gradient(127deg, #56e0e0 0%, #007299 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-sidebar-logo img {
+  width: 38px;
+  color: #fff;
+}
+
+.user-sidebar.toggle .user-sidebar-logo p {
+  color: #fff;
+}
+
+.user-sidebar-content,
+.sidebar-content-list {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.sidebar-content-list .user-sidebar-card {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.user-sidebar-card a .sidebar-card-img {
+  padding: 20px 27px;
+  width: 76px;
+}
+
+.user-sidebar-card a .sidebar-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-sidebar-card a {
+  text-decoration: none;
+  color: #172048;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.user-container.toggle .user-sidebar-card a {
+  color: #fff;
+}
+
+.user-sidebar-card:hover a,
+.sidebar-select.active {
+  color: #fff;
+  background: linear-gradient(127deg, #4ed6da 0%, #04789d 100%);
+  color: #fff;
+}
+
+.user-container.toggle .user-sidebar-card:hover a,
+.user-container.toggle .sidebar-select.active {
+  color: #fff;
+  background: linear-gradient(127deg, #4ed6da 0%, #04789d 100%);
+  color: #fff;
+}
+
+.wrapper {
+  margin-left: 310px;
+}
+
+.nav {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #a4d4d9;
+  padding: 0px 20px;
+}
+
+.nav-left {
+  margin: 20px 0px;
+}
+
+.nav-left h3 {
+  color: #172048;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-left h3 span {
+  background: linear-gradient(127deg, #4ed6da 0%, #04789d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-pic {
+  padding: 20px 0px;
+}
+
+.profile-pic img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.notification-icon {
+  color: black;
+  font-size: 20px;
+}
+
+.icons {
+  padding: 20px 0px;
+}
+
+.display-healer-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-name {
+  padding: 20px 0;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #172048;
+}
+
+.dashboard-section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 0px;
+  gap: 63%;
+}
+
+.dashboard-heading h2 {
+  /* margin: 20px 0px 20px 50px;*/
+  font-size: 2.5rem;
+}
+
+.dashboard-date {
+  background: #e4f9fa;
+  color: #172048;
+  padding: 10px 43px 10px 30px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.dashboard-date::after {
+  content: '\25bc';
+  position: absolute;
+  right: 10px;
+}
+
+.dashboard-section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  height: 40vh;
+}
+
+.total-paitents {
+  width: 35%;
+  background-color: #e4f9fa;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.paitents-value {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 20px solid black;
+  text-align: center;
+  border-right: 20px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.sex-ratio {
+  margin: auto;
+  text-align: center;
+  font-size: larger;
+}
+.paitent-stats {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.patient-details-heading {
+  margin-bottom: 36px;
+  font-size: 1.2rem;
+  color: #172048;
+}
+
+.paitents {
+  background-color: #e4f9fa;
+  text-align: center;
+  color: black;
+  height: 40%;
+  border-radius: 20px;
+  font-size: 30px;
+  color: #04789d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 50px;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.paitents p {
+  color: #172048;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.graph-analysis {
+  width: 40%;
+  text-align: left;
+}
+.graph-analysis h2 {
+  color: #172048;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.dashboard-section-3 {
+  margin: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+.event-card p {
+  text-align: left;
+}
+
+.event-card-icons {
+  display: flex;
+  margin: 10px 0px;
+  gap: 10px;
+}
+
+.event-card-icons img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.event-card-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #e4f9fa;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+.event-card-lists {
+  display: flex;
+  flex-direction: column;
+}
+.event-card-heading {
+  padding: 10px;
+  color: black;
+}
+.paitents-list {
+  /* background-color: brown; */
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.paitent-list-item-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.paitent-list-item {
+  display: flex;
+  flex-direction: row;
+  background-color: #e4f9fa;
+  width: 350px;
+  border-radius: 10px;
+  justify-content: space-around;
+  color: black;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.paitet-event-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.paitent-name {
+  padding-top: 8px;
+}
+.setting-icon {
+  padding-top: 8px;
+}
+.paitent-list-card {
+  margin-left: 480px;
+}
+.dashboard-heading h2 {
+  background: linear-gradient(180deg, #56e0e0 0%, #007299 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.event-wrapper h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #172048;
+}

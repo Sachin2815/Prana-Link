@@ -1,0 +1,153 @@
+.bg-holder {
+  background: url('../../assets/images/user page/hero.jpg');
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform, opacity, filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.bg-holder::before {
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.45);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.user-hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-hero-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.user-hero-heading span {
+  background: linear-gradient(180deg, #57cdcd 0%, #27c9fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-hero-search {
+  width: 45%;
+  display: flex;
+  gap: 30px;
+}
+
+.user-healer-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.user-healer-heading {
+  font-size: 4.3vw;
+  font-weight: 700;
+  color: #172048;
+  position: relative;
+}
+
+.user-healer-heading span {
+  background: linear-gradient(127deg, #57cdcd 0%, #27c9fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-healer-heading::after {
+  content: '';
+  position: absolute;
+  width: 13%;
+  height: 4px;
+  background: #172048;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+}
+
+.user-healer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.user-healer-testimonials-wrapper {
+  height: 100vh;
+}
+
+.user-healer-testimonial-title {
+  text-align: center;
+  font-size: 1.7vw;
+  position: relative;
+  color: #172048;
+  margin-bottom: 2rem;
+}
+
+.user-healer-testimonial-title::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background: #172048;
+  background: linear-gradient(127deg, #56e0e0 0%, #007299 100%);
+  bottom: -20px;
+  right: 0;
+  border-radius: 15px;
+}
+
+.user-healer-testimonial-title::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background: #172048;
+  background: linear-gradient(227deg, #56e0e0 0%, #007299 100%);
+  top: -30px;
+  left: 0;
+  border-radius: 15px;
+}
+
+.user-healer-testimonial-subtitle {
+  text-align: center;
+  font-size: 3.7vw;
+  background: linear-gradient(127deg, #57cdcd 0%, #27c9fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-healer-testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}

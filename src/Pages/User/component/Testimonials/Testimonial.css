@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200&family=Secular+One&display=swap');
+
+.testimonial-card {
+  width: 280px;
+  text-align: center;
+  border-radius: 10px;
+  /* border: 3px solid #ffb703; */
+
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background: #e4f9fa;
+  box-shadow: 0 0px 15px rgb(201, 201, 201);
+}
+
+.text {
+  font-size: 14px;
+}
+
+.hr {
+  width: 25%;
+  height: 3px;
+  background-color: #172048;
+  border-radius: 3px;
+  margin: 8px 0px;
+}
+
+.testimonial-card-img img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: -15px 0px;
+  box-shadow: 0 0px 15px rgb(113, 106, 106);
+}
+
+.testimonial-heading h1 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 5vw;
+  height: 60px;
+  background: linear-gradient(127deg, #57cdcd 0%, #27c9fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

@@ -1,0 +1,161 @@
+.home-btn {
+  background: linear-gradient(127deg, #56e0e0 0%, #007299 100%);
+  border-radius: 35px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 20px;
+}
+
+.form-input-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-inputs {
+  width: 80%;
+}
+
+.form-input-1 {
+  margin-bottom: 20px;
+}
+
+.form-inputs input {
+  width: 100%;
+  height: 50px;
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: 1px solid #c5cacf;
+  font-size: 14px;
+}
+
+.input-password-section {
+  position: relative;
+  width: 100%;
+}
+
+.input-password-section input {
+  padding-right: 40px;
+}
+
+.input-password-section .toggle-password-visibility {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.form-forgot-password {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.form-forgot-password span {
+  color: #6375f0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-btns {
+  width: 100%;
+}
+
+.btn {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 13px;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 1px solid #c5cacf;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-btns .form-submit {
+  /* background-color: #6375f0; */
+  background: linear-gradient(127deg, #56e0e0 0%, #007299 100%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.form-remember {
+  display: flex;
+  gap: 8px;
+}
+
+.form-remember input {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #6375f0;
+}
+
+.form-heading h3,
+.form-input-label {
+  font-weight: 800;
+}
+
+.form-heading {
+  margin-bottom: 20px;
+}
+
+.form-heading h3 {
+  font-size: 24px;
+}
+
+.form-heading p,
+.form-forgot-password .form-remember label,
+.form-sign p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b96a0;
+}
+
+.form-info {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 14px;
+  color: #8b96a0;
+  background-color: #f0f1f1;
+  padding: 14px 10px;
+  border-radius: 7px;
+  user-select: none;
+}
+
+.form-submit:hover {
+  background-color: #77c3fd;
+  color: #fff;
+}
